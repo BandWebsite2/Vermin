@@ -1,0 +1,75 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Home</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body bgcolor="#000000" topmargin="30" leftmargin="90" rightmargin="90" bottommargin="90" marginwidth="90" marginheight="30" link="#F53D30" vlink="#7D0F06" alink="#F53D30" text="#F53D30" onload="FP_preloadImgs(/*url*/'button19.gif', /*url*/'button1A.gif')">
+
+<p align="center">
+<img border="0" src="vermin%20logo.jpg" width="763" height="136"></p>
+<p align="center">
+<!--webbot bot="Navigation" S-Type="sequence" S-Orientation="horizontal" S-Rendering="graphics" B-Include-Home="FALSE" B-Include-Up="FALSE" U-Page="sid:1001" S-Theme="Refined 0000" startspan --><img src="_derived/index.htm_cmp_Refined000_hbtn_p.gif" width="140" height="30" border="0" alt="Home" align="middle"> <a href="gallery.htm"><img src="_derived/gallery.htm_cmp_Refined000_hbtn.gif" width="140" height="30" border="0" alt="Gallery" align="middle"></a> <a href="songs.htm"><img src="_derived/songs.htm_cmp_Refined000_hbtn.gif" width="140" height="30" border="0" alt="Songs" align="middle"></a> <a href="live.htm"><img src="_derived/live.htm_cmp_Refined000_hbtn.gif" width="140" height="30" border="0" alt="Live Shows" align="middle"></a><!--webbot bot="Navigation" i-checksum="47918" endspan --></p>
+<p align="center"><font color="#F53D30" face="Arial">&nbsp; <b><i>Welcome to the&nbsp;
+</i></b></font><b><span style="letter-spacing: 3pt">
+<font color="#F53D30" face="Arial Black"><u>Vermin Homepage</u></font></span><font color="#F53D30" face="Arial"><i>&nbsp; 
+(yes we know it looks like shit.)</i></font></b></p>
+<p align="center"><i><font face="Arial" color="#F53D30">&nbsp; We are a metal 
+punky amalgam four piece band from bumblefuck nowhere (otherwise known as 
+Enfield, CT)</font></i></p>
+<p align="center"><i><b><font face="Arial" color="#F53D30">&nbsp; </font></b>
+</i></p>
+<div align="center">
+	<table border="1" cellpadding="6" cellspacing="6" bordercolorlight="#F53D30" bordercolordark="#F53D30" bgcolor="#7D0F06">
+		<tr>
+			<td>
+			<img border="0" src="photoplaceholder.jpg" width="200" height="300"></td>
+			<td bordercolor="#000000">
+			<p align="center"><i><b><font face="Arial" color="#F53D30">Members :</font></b></i></p>
+			<p align="center"><i><b><font face="Arial" color="#F53D30">Greg 
+			Holmes - Vocals</font></b></i></p>
+			<p align="center"><i><b><font face="Arial" color="#F53D30">Evan 
+			Moreset - Bass</font></b></i></p>
+			<p align="center"><i><b><font face="Arial" color="#F53D30">Liam 
+			Malcolm - Guitar</font></b></i></p>
+			<p><i><b><font face="Arial" color="#F53D30">Declan Messier - Drums&nbsp;
+			</font></b></i></p>
+			<p>&nbsp;</td>
+			<td>
+			<img border="0" src="photoplaceholder.jpg" width="200" height="300"></td>
+		</tr>
+	</table>
+</div>
+<p align="center"><font size="7"><a href="songs.htm">
+<img border="0" id="img1" src="button18.gif" height="26" width="160" alt="FREE MUSIC DOWNLOAD!" fp-style="fp-btn: Embossed Capsule 1; fp-transparent: 1; fp-proportional: 0" fp-title="FREE MUSIC DOWNLOAD!" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button19.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button18.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button1A.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button19.gif')"></a></font></p>
+<p align="left">&nbsp;</p>
+
+</body>
+
+</html>
